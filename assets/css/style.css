@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
+}
+/*------------ cabeçalho------------------*/
+
+header{
+    background-color: #EEE5E9;
+    box-shadow: 0px 3px 10px #A9A9A9;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.Logo-Include {
+    display: flex;
+    align-items: center;
+    color: #233329;
+    font-family: serif;
+}
+
+
+.nav-lista {
+    display: flex;
+    align-items: center;
+}
+
+.nav-lista ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-op {
+    margin: 0 3px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0.5rem;
+    color: #233329;
+    font-weight: 400;
+}
+
+.link:hover{
+    color: #0e140f;
+}
+
+.nav-desejos {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0.5rem 0.5rem;
+    color: #233329;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.5s;
+}
+
+.desejos {
+    display: inline-flex;
+}
+
+.nav-desejos:hover{
+    font-size: 40px;
+    color: #24352b;
+}
+
+/*------------ cabeçalho------------------*/
+
+
+
+/*-------------- corpo ---------------------*/
+
+body{
+    background-color: #c5d3d8;
+}
+
+
+#opcoes {
+    display: flex;
+    padding: 0.5rem 20rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    padding: 3rem 0rem;
+    color: #233329;
+
+}
+
+.div_img {   
+    padding: 0.5rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-style: oblique;
+    font-weight: 50;
+}
+
+.img-logo{
+    display: inline-flex;
+    text-align: center;
+    padding: 2rem 8rem;
+    border-radius: 30%;
+
+}
+
+.img-logo2 {
+    display: inline-flex;
+    padding: 0.5rem 0.5rem;
+    border-radius: 30%;
+
+}
+
+.img-logo3 {
+    display: inline-flex;
+    justify-content: left;
+    padding: 0.5rem 0.5rem;
+    border-radius: 30%;
+
+}
+
+
+.produto1 {
+    color: #233329;
+    padding: 0.5rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-style: oblique;
+    font-weight: 50;
+
+}
+
+.produtos {
+    display: inline-flex;
+    justify-content: center;
+    padding: 5rem 8rem;
+    border-radius: 50%;
+
+}
+
+.produtos:hover{
+    height: 220px;
+ 
+
+}
+
+.produtos_id {
+    display: inline-flexbox;
+}
+
+.produto2 {
+    color: #233329;
+    padding: 10rem 2rem;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-style: oblique;
+    font-weight: 30;
+
+}
+
+.produto3 {
+    color: #233329;
+    padding: 1rem 1rem;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-style: oblique;
+    font-weight: 30;
+
+}
+
+.imagem_produtos {
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+    padding: 2rem;
+}
+
+
+/*-------------- corpo ---------------------*/
+
+
+/*--------------fim------------------*/
+
+
+footer {
+    background-color: #EEE5E9;
+    box-shadow: 0px 3px 10px #A9A9A9;
+}
+
+.nav-foot {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 10rem;
+}
+
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    color: #233329;
+    font-family: serif;
+}
+
+.informacoes {
+    padding: 0.1rem 9rem 5rem;
+    align-items: center;
+    color: #233329;
+    font-family: serif;
+     
+}
+
+/*--------------fim------------------*/
